@@ -1,3 +1,13 @@
+About main codes
+i) "runThruRecords_vXX.py" -- main code used to read binary data files and save as .mat and .npz  Used pre-spike sorting (before wave_clus)
+ii)
+
+Internal Functions:
+i) "func_binary_to_mat_XX.py" -- function used inside (i)
+ii) "continuous_ms_time.py" -- function used inside (i)
+iii) "readBinaryFile.py" -- function used inside (i)
+
+
 Main code: "runThruRecords_v3.py"
 
 Read/organize data from each individually selected recording_site.
@@ -18,4 +28,7 @@ Choose the recording site you want read and group. For instance, gle05c (all the
 4) check if the searchPath is correctly adjusted
 5) check if outputPaths are correct
 
+
+Obs:
+Two Spike time arrays are created. One, has the time for each individual trial. The other, will concatenate the trial timing (and add 1000-ms between each) to avoid errors during the spike sorting (I'm still not sure if that is necessary... but it seems like I got better results using this version..)
 
