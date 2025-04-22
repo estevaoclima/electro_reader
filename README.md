@@ -4,6 +4,9 @@ i) "runThruRecords_vXX.py" -- main code used to read binary data files and save 
 
 ii) "adjustBeforeSorting_30mar25.m" -- runs sorting (wave_clus) && (before that) check/correct if data is double (needed to run waveClus)
 
+iii) "splitStimPeriod_post_sorting_v04_6abr25.py" --  AUTOCORRELATION (notFinalVersion) runs through selected file & perform autocorr for each individual SUA on each tested condition & JUST during the Stimulus-presentation-period
+
+
 Internal Functions:
 
 i) "func_binary_to_mat_XX.py" -- function used inside (I)
