@@ -1,10 +1,15 @@
 About main codes
+
 i) "runThruRecords_vXX.py" -- main code used to read binary data files and save as .mat and .npz  Used pre-spike sorting (before wave_clus)
+
 ii)
 
 Internal Functions:
-i) "func_binary_to_mat_XX.py" -- function used inside (i)
-ii) "continuous_ms_time.py" -- function used inside (i)
+
+i) "func_binary_to_mat_XX.py" -- function used inside (I)
+
+ii) "continuous_ms_time.py" -- function used inside (I)
+
 iii) "readBinaryFile.py" -- function used inside (i)
 
 
