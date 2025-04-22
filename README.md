@@ -2,7 +2,7 @@ About main codes
 
 i) "runThruRecords_vXX.py" -- main code used to read binary data files and save as .mat and .npz  Used pre-spike sorting (before wave_clus)
 
-ii)
+ii) "adjustBeforeSorting_30mar25.m" -- runs sorting (wave_clus) && (before that) check/correct if data is double (needed to run waveClus)
 
 Internal Functions:
 
